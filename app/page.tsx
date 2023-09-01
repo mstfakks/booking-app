@@ -3,15 +3,15 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <section>
-        <div className="absolute left-0 top-0">
+    <main className="overflow-hidden">
+      <section className="relative h-[900px] overflow-hidden">
+        <div className="absolute">
           <Image
             src="/travel.svg"
             width={1920}
             height={976}
             alt="travel image"
-            className="object-cover"
+            className="object-contain"
           />
         </div>
         <div className="ml-80 z-10 absolute mt-56 ">
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="relative">
         <Companies />
       </section>
     </main>

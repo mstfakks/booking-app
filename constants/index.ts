@@ -19,18 +19,12 @@ export const navbarLinks = [
 
 export const companies = [
   {
+    id: 1,
     imgUrl: "/image 909.png",
   },
+
   {
-    imgUrl: "/image 910.png",
-  },
-  {
-    imgUrl: "/image 911.png",
-  },
-  {
-    imgUrl: "/image 912.png",
-  },
-  {
-    imgUrl: "/image 913.png",
+    id: 4,
+    imgUrl: "/swiss.png",
   },
 ];
