@@ -1,9 +1,9 @@
-import { BaseButton, Companies } from "@/components";
+import { BaseButton, BestService, Companies } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main className="relative overflow-hidden">
       <section className="relative h-[900px] overflow-hidden">
         <div className="absolute">
           <Image
@@ -47,6 +47,9 @@ export default function Home() {
       </section>
       <section className="relative">
         <Companies />
+      </section>
+      <section className="relative mt-28 ">
+        <BestService />
       </section>
     </main>
   );
