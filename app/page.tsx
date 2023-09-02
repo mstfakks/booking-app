@@ -1,4 +1,9 @@
-import { BaseButton, BestService, Companies } from "@/components";
+import {
+  BaseButton,
+  BestService,
+  Companies,
+  RomanticTropicalLand,
+} from "@/components";
 import Image from "next/image";
 
 export default function Home() {
@@ -50,6 +55,9 @@ export default function Home() {
       </section>
       <section className="relative mt-28 ">
         <BestService />
+      </section>
+      <section className="relative">
+        <RomanticTropicalLand />
       </section>
     </main>
   );
